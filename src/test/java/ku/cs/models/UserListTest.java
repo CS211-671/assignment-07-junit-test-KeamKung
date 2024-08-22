@@ -78,12 +78,4 @@ class UserListTest {
         ul1.addUser("Keamzaza","1111");
         assertNotNull(ul1.findUserByUsername("Keamzaza"));
     }
-
-    @Test
-    @DisplayName("Find user")
-    public void testFindUserByUsername() {
-        ul1.addUser("Keamzaza","1111");
-        assertNotNull(ul1.findUserByUsername("Keamzaza"));
-    }
-
 }
