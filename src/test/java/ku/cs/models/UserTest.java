@@ -32,7 +32,7 @@ class UserTest {
     @Test
     void testSetPassword(){
         User user = new User("user01","1234");
-        user.setPassword("4321");
-        assertTrue(user.validatePassword("4321"));
+        user.setPassword("4322");
+        assertTrue(user.validatePassword("4322"));
     }
 }
